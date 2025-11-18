@@ -15,44 +15,74 @@
     <!-- <link rel="shortcut icon" href="assets/icons/logo.ico" type="image/x-icon"/> -->
   </head>
   <body>
-    <nav class="navbar">
-      <div class="container">
-        <div class="logo">
-          <a href="index.html">
-            <img src="images/logo.png" alt="logo" />
-          </a>
-        </div>
-        <div class="main-menu">
-          <ul>
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <a href="#">About Us</a>
-            </li>
-            <li>
-              <a href="#">Music</a>
-            </li>
-            <li>
-              <a href="#">Merch</a>
-            </li>
-            <li>
-              <a class="btn" href="#"><i class="fas fa-user"></i>Login</a>
-            </li>
-          </ul>
-        </div>
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="assets\glitch_154803.svg" alt="CYBERSPACE O'BLIVION" />
+          <!-- <img src="images/logo.png" alt="logo" /> -->
+        </a>
       </div>
-    </nav>
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#music">Music</a>
+          </li>
+          <li>
+            <a href="#videos">Videos</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <!-- Hero -->
-    <section class="hero">
-      <div class="container">
-        <div class="hero-content">
-          <h1 class="hero-heading text-xxl">Some words here...</h1>
-          <p class="hero-text">words worf worofdw gmesor sergeg</p>
-        </div>
+    <section id="home">
+      <div>
+        <h1 class="hero-heading text-xxl">New album coming soon...</h1>
+        <!-- <p class="hero-text">words worf worofdw gmesor sergeg</p> -->
       </div>
     </section>
-
+    <section id="music">
+      <iframe
+        style="border: 0; width: 350px; height: 470px"
+        src="https://bandcamp.com/EmbeddedPlayer/album=3729872886/size=large/bgcol=333333/linkcol=2ebd35/tracklist=false/transparent=true/"
+        seamless
+        ><a
+          href="https://cyberspaceoblivion.bandcamp.com/album/deepspace-dreamscapes"
+          >Deepspace Dreamscapes by Cyberspace O&#39;Blivion</a
+        ></iframe
+      >
+      <iframe
+        style="border: 0; width: 350px; height: 470px"
+        src="https://bandcamp.com/EmbeddedPlayer/album=416320048/size=large/bgcol=333333/linkcol=2ebd35/tracklist=false/transparent=true/"
+        seamless
+        ><a href="https://cyberspaceoblivion.bandcamp.com/album/rogue-planet"
+          >Rogue Planet by Cyberspace O&#39;Blivion</a
+        ></iframe
+      >
+    </section>
+    <section id="videos">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/nTiuKi_Haq0?si=RTDneli0cvMq7wXf"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <section id="contact">
+      <img
+        src="assets\youtube_banner.jpg"
+        alt="Cyber and Robert O'Blivion playing synths"
+      />
+    </section>
     <script src="js/main.js"></script>
   </body>
 </html>
