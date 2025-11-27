@@ -11,78 +11,154 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- <link rel="shortcut icon" href="assets/icons/logo.ico" type="image/x-icon"/> -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="preload" as="image" href="assets/Home Hover 2 Loop.gif.gif" />
+    <link rel="preload" as="image" href="assets/Music Hover 2 Loop.gif.gif" />
+    <link rel="preload" as="image" href="assets/Videos Hover 2 Loop.gif.gif" />
+    <link rel="preload" as="image" href="assets/Contact Hover 2 Loop.gif.gif" /> -->
   </head>
   <body>
-    <header>
-      <div class="logo">
+    <div class="wrapper">
+      <div class="parallax">
+        <img src="assets/Paralax/stars small.gif" alt="stars" id="layer-0" />
+        <img src="assets/Paralax/nebula.gif" alt="Nebula" id="layer-1" />
+        <img src="assets/Paralax/stars big.gif" alt="stars" id="layer-2" />
+        <img
+          src="assets/Paralax/Twinkling Stars 1.gif"
+          alt="twinkling stars"
+          id="layer-3"
+        />
+        <img
+          src="assets/Paralax/Twinkling Stars 2.gif"
+          alt="twinkling stars"
+          id="layer-3"
+        />
+        <img
+          src="assets/Paralax/Twinkling Stars 3.gif"
+          alt="twinkling stars"
+          id="layer-4"
+        />
+        <img
+          src="assets/Paralax/Twinkling Stars 4.gif"
+          alt="twinkling stars"
+          id="layer-4"
+        />
+        <img
+          src="assets/Paralax/Twinkling Stars 5.gif"
+          alt="twinkling stars"
+          id="layer-5"
+        />
+        <img src="assets/Paralax/Planet 1.gif" alt="planet" id="layer-6" />
+        <img src="assets/Paralax/Planet 2.gif" alt="planet" id="layer-7" />
+        <img src="assets/Paralax/Planet 3.gif" alt="planet" id="layer-8" />
+      </div>
+      <div class="content" id="home">
         <a href="index.html">
           <img src="assets\glitch_154803.svg" alt="CYBERSPACE O'BLIVION" />
-          <!-- <img src="images/logo.png" alt="logo" /> -->
         </a>
+        <nav class="navbar">
+          <ul>
+            <li>
+              <a href="#home">
+                <img class="navGif" data-name="Home" alt="Home" />
+              </a>
+            </li>
+            <li>
+              <a href="#music">
+                <img class="navGif" data-name="Music" alt="Home" />
+              </a>
+            </li>
+            <li>
+              <a href="#videos">
+                <img class="navGif" data-name="Videos" alt="Home" />
+              </a>
+            </li>
+            <li>
+              <a href="#contact">
+                <img class="navGif" data-name="Contact" alt="Home" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <section id="music">
+          <iframe
+            style="border: 0; width: 350px; height: 470px"
+            src="https://bandcamp.com/EmbeddedPlayer/album=3729872886/size=large/bgcol=333333/linkcol=2ebd35/tracklist=false/transparent=true/"
+            seamless
+            ><a
+              href="https://cyberspaceoblivion.bandcamp.com/album/deepspace-dreamscapes"
+              >Deepspace Dreamscapes by Cyberspace O&#39;Blivion</a
+            ></iframe
+          >
+          <iframe
+            style="border: 0; width: 350px; height: 470px"
+            src="https://bandcamp.com/EmbeddedPlayer/album=416320048/size=large/bgcol=333333/linkcol=2ebd35/tracklist=false/transparent=true/"
+            seamless
+            ><a
+              href="https://cyberspaceoblivion.bandcamp.com/album/rogue-planet"
+              >Rogue Planet by Cyberspace O&#39;Blivion</a
+            ></iframe
+          >
+        </section>
+        <section id="videos">
+          <div class="responsive-iframe">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/nTiuKi_Haq0?si=RTDneli0cvMq7wXf"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="responsive-iframe">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/FY_lNV7yXfM?si=J-x-se-3-j_MXkoJ"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </section>
+        <section id="contact">
+          <img
+            src="assets\youtube_banner.jpg"
+            alt="Cyber and Robert O'Blivion playing synths"
+            style="height: 400px"
+          />
+        </section>
       </div>
-      <nav class="navbar">
-        <ul>
-          <li>
-            <a href="#home">Home</a>
-          </li>
-          <li>
-            <a href="#music">Music</a>
-          </li>
-          <li>
-            <a href="#videos">Videos</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <!-- Hero -->
-    <section id="home">
-      <div>
-        <h1 class="hero-heading text-xxl">New album coming soon...</h1>
-        <!-- <p class="hero-text">words worf worofdw gmesor sergeg</p> -->
-      </div>
-    </section>
-    <section id="music">
-      <iframe
-        style="border: 0; width: 350px; height: 470px"
-        src="https://bandcamp.com/EmbeddedPlayer/album=3729872886/size=large/bgcol=333333/linkcol=2ebd35/tracklist=false/transparent=true/"
-        seamless
-        ><a
-          href="https://cyberspaceoblivion.bandcamp.com/album/deepspace-dreamscapes"
-          >Deepspace Dreamscapes by Cyberspace O&#39;Blivion</a
-        ></iframe
-      >
-      <iframe
-        style="border: 0; width: 350px; height: 470px"
-        src="https://bandcamp.com/EmbeddedPlayer/album=416320048/size=large/bgcol=333333/linkcol=2ebd35/tracklist=false/transparent=true/"
-        seamless
-        ><a href="https://cyberspaceoblivion.bandcamp.com/album/rogue-planet"
-          >Rogue Planet by Cyberspace O&#39;Blivion</a
-        ></iframe
-      >
-    </section>
-    <section id="videos">
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/nTiuKi_Haq0?si=RTDneli0cvMq7wXf"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe>
-    </section>
-    <section id="contact">
-      <img
-        src="assets\youtube_banner.jpg"
-        alt="Cyber and Robert O'Blivion playing synths"
-      />
-    </section>
-    <script src="js/main.js"></script>
+    </div>
   </body>
+  <script>
+    document.querySelectorAll(".navGif").forEach((gif) => {
+      const name = gif.dataset.name;
+      const staticGif = "assets/" + name + " Static.gif";
+      const introGif = "assets/" + name + " Hover 1.gif";
+      const loopGif = "assets/" + name + " Hover 2 Loop.gif";
+      const duration = 4000;
+      let timer = null;
+
+      gif.src = staticGif;
+
+      gif.addEventListener("mouseenter", () => {
+        gif.src = introGif;
+        clearTimeout(timer);
+        timer = setTimeout(() => {
+          gif.src = loopGif;
+        }, duration);
+      });
+
+      gif.addEventListener("mouseleave", () => {
+        clearTimeout(timer);
+        gif.src = staticGif;
+      });
+    });
+  </script>
 </html>
